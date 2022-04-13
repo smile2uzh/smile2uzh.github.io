@@ -1,0 +1,32 @@
+.navbar-custom {
+	height: 10vh;
+	min-height: 70px;
+	max-height: 80px;
+}
+body {
+}
+.bg-secondary {
+	background-color: #0c2e44 !important;
+}
+.navbar-brand {
+	color: #f97434 !important;
+}
+.bg-primary {
+	color: #0c2e44 !important;
+	background-color: #d4deee !important;	
+}
+.main-title {
+	color: #f97434 !important;
+}
+.masthead {
+	margin-bottom: 17rem;
+}
+.home-page {
+	height: 100vh;
+}
+.description {
+	font-size: 1.2em;
+}
+#uzh-logo {
+	width: 200%;
+}

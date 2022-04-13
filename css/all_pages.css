@@ -1,0 +1,49 @@
+.navbar-custom {
+	height: 10vh;
+	min-height: 70px;
+	max-height: 80px;
+}
+body {
+	background-color: #d4deee !important;
+}
+.exercise-button{
+	white-space: nowrap !important;
+	overflow: hidden !important;
+}
+.exercise-button:hover {
+	cursor: pointer;
+	color: #f97434 !important;
+}
+.bg-secondary {
+	background-color: #0c2e44 !important;
+}
+.navbar-brand {
+	color: #f97434 !important;
+}
+.bg-primary {
+	color: #0c2e44 !important;
+	background-color: #d4deee !important;	
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c2e44; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f97434; 
+}
+
+#navbarResponsive {
+	border-radius: 25px;
+}
