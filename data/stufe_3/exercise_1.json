@@ -1,0 +1,14 @@
+{
+	"slide_0":{
+		"img": "data/img/e1_i1_m18.png" ,
+        "text": ""
+	},
+	"slide_1":{
+		"img": "data/img/e1_i2_m18.png" ,
+        "text": ""
+	},
+	"slide_2":{
+		"img": "data/img/e1_i3_m6.png" ,
+        "text": ""
+	}
+}

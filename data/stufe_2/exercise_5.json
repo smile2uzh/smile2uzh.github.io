@@ -1,0 +1,46 @@
+{
+	"slide_0": {
+        "video": "data/video/e5_demo.mp4" ,
+        "text": "Beispiel"
+    },
+    "slide_1": {
+        "video": "data/video/e5_i1a_m6.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+    },
+    "slide_2": {
+        "video": "data/video/e5_i1b_m6.mp4" ,
+        "text": "Bitte in einen Fragesatz ohne W-Gebaerde umwandeln"
+    },
+    "slide_3": {
+        "video": "data/video/e5_i3a_m6.mp4" ,
+        "text": "Bitte in einen Fragesatz ohne W-Gebaerde umwandeln"
+    },
+    "slide_4": {
+        "video": "data/video/e5_i3b_m6.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+    },
+    "slide_5": {
+        "video": "data/video/e5_i1a_m12.mp4" ,
+        "text": "Bitte in einen Fragesatz ohne W-Gebaerde umwandeln"
+    },
+    "slide_6": {
+        "video": "data/video/e5_i1b_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+     },
+    "slide_7": {
+        "video": "data/video/e5_i2b_m12.mp4" ,
+        "text": "Bitte in einen Fragesatz ohne W-Gebaerde umwandeln"
+     },
+    "slide_8": {
+        "video": "data/video/e5_i2a_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Bejahung umwandeln"
+      },
+    "slide_9": {
+        "video": "data/video/e5_i3a_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+     },
+    "slide_10": {
+        "video": "data/video/e5_i3b_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Bejahung umwandeln"
+     }
+}

@@ -1,0 +1,62 @@
+{
+	"slide_0": {
+        "video": "data/video/e5_demo.mp4" ,
+        "text": "Beispiel"
+    },
+    "slide_1": {
+        "video": "data/video/e5_i3a_m6.mp4" ,
+        "text": "Bitte in einen Fragesatz ohne W-Gebaerde umwandeln"
+    },
+    "slide_2": {
+        "video": "data/video/e5_i3b_m6.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+    },
+    "slide_3": {
+        "video": "data/video/e5_i3a_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+     },
+    "slide_4": {
+        "video": "data/video/e5_i3b_m12.mp4" ,
+        "text": "Bitte in einen Satz mit einer Bejahung umwandeln"
+     },
+    "slide_5": {
+        "video": "data/video/e5_i1a_m18.mp4" ,
+        "text": "Bitte in einen Fragesatz mit W-Gebaerde WO umwandeln"
+     },
+    "slide_6": {
+        "video": "data/video/e5_i1b_m18.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+     },
+    "slide_7": {
+        "video": "data/video/e5_i3a_m18.mp4" ,
+        "text": "Bitte mit einem Kausalsatz vervollstaendigen"
+     },
+    "slide_8": {
+        "video": "data/video/e5_i3b_m18.mp4" ,
+        "text": "Bitte mit einem Konditionalsatz vervollstaendigen"
+     },
+    "slide_9": {
+        "video": "data/video/e5_i1a_m24.mp4" ,
+        "text": "Bitte in einen Fragesatz mit W-Gebaerde W0 umwandeln"
+     },
+    "slide_10": {
+        "video": "data/video/e5_i1b_m24.mp4" ,
+        "text": "Bitte in einen Satz mit einer Negation umwandeln"
+     },
+     "slide_11": {
+        "video": "data/video/e5_i2a_m24.mp4" ,
+        "text": "Bitte in einen Fragesatz mit W-Gebaerde WER umwandeln"
+     },
+    "slide_12": {
+        "video": "data/video/e5_i2b_m24.mp4" ,
+        "text": "Bitte in einen Satz umwandeln: MANN steigt anstatt FRAU ein"
+      },
+    "slide_13": {
+        "video": "data/video/e5_i3a_m24.mp4" ,
+        "text": "Bitte in einen Fragesatz mit W-Gebaerde WELCHE umwandeln"
+     },
+    "slide_14": {
+        "video": "data/video/e5_i3b_m24.mp4" ,
+        "text": "Bitte in einen Fragesatz mit W-Gebaerde WARUM umwandeln"
+      }
+}
