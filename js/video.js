@@ -22,17 +22,17 @@ function animate_counter(){
 	        duration: 1000, 
 	        easing: 'linear', 
 	        complete: function(){
-	        	$('#counter-number').css('fontSize', '0rem')
-	        	if (el < 5){
-	        		el += 1
-	        		loop(el)
-	        	} else {
-	        		$('#counter-number').css('display','hide');
-	        	}
+				$('#counter-number').css('fontSize', '0rem')
+				if (el > 1){
+					el -= 1
+					loop(el)
+				} else {
+					$('#counter-number').css('display','hide');
+				}
 	        }
 	    });
 	}
-	loop(1);
+	loop(5);
 }
 function return_sizes(){
 	let width = $('#recorder-container').width();
@@ -49,10 +49,7 @@ function return_sizes(){
 	if (width < 200) {
 		width = 200
 	}
-	// if (height<300){height=300}
 
-	console.log(width)
-	console.log(height)
 	return {'width':width, 'height': height}
 }
 
@@ -212,80 +209,3 @@ document.querySelector('button#start').addEventListener('click', async () => {
 	console.log('Using media constraints:', constraints);
 	await init(constraints);
 });
-
-// height = $(".input_video_lession").css('height')
-// $("#recording").css({'display': 'none', 'height': height})
-// $("#preview").css({'height': height})
-
-
-// let preview = document.getElementById("preview");
-// let recording = document.getElementById("recording");
-// let startButton = document.getElementById("startButton");
-// let stopButton = document.getElementById("stopButton");
-// let downloadButton = document.getElementById("downloadButton");
-// let logElement = document.getElementById("log");
-
-// let recordingTimeMS = 60000;
-
-// function wait(delayInMS) {
-// 	return new Promise(resolve => setTimeout(resolve, delayInMS));
-// }
-// function startRecording(stream, lengthInMS) {
-// 	let recorder = new MediaRecorder(stream);
-// 	let data = [];
-
-// 	recorder.ondataavailable = event => data.push(event.data);
-// 	recorder.start();
-
-// 	let stopped = new Promise((resolve, reject) => {
-// 		recorder.onstop = resolve;
-// 		recorder.onerror = event => reject(event.name);
-// 	});
-
-// 	let recorded = wait(lengthInMS).then(
-// 		() => recorder.state == "recording" && recorder.stop()
-// 	);
-
-// 	return Promise.any([
-// 		stopped,
-// 		recorded
-// 	])
-// 	.then(() => data);
-// }
-// function stop(stream) {
-// 	$("#preview").css('display', 'none')
-// 	$("#recording").css('display', '')
-// 	stream.getTracks().forEach(track => track.stop());
-// }
-// startButton.addEventListener("click", function() {
-// 	navigator.mediaDevices.getUserMedia({
-// 		video: true,
-// 		audio: false
-// 	}).then(stream => {
-// 		preview.srcObject = stream;
-// 		downloadButton.href = stream;
-// 		preview.captureStream = preview.captureStream || preview.mozCaptureStream;
-// 		return new Promise(resolve => preview.onplaying = resolve);
-// 	})
-// 	.then(() => startRecording(preview.captureStream(), recordingTimeMS))
-// 	.then (recordedChunks => {
-// 		$("#preview").css('display', 'none')
-// 		$("#recording").css('display', '')
-// 		stop(preview.srcObject);
-
-// 		let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
-// 		recording.src = URL.createObjectURL(recordedBlob);
-// 		console.log(recording.src)
-// 		// blob:http://localhost:8000/4e317e61-2931-4890-8c2a-73273fe461e2
-// 		downloadButton.href = recording.src;
-
-// 		downloadButton.download = "RecordedVideo.webm";
-
-// 		console.log("Successfully recorded " + recordedBlob.size + " bytes of " + recordedBlob.type + " media.");
-// 	});
-// }, false);
-// stopButton.addEventListener("click", function() {
-// 	$("#preview").css('display', 'none')
-// 	$("#recording").css('display', '')
-// 	stop(preview.srcObject);
-// }, false);
